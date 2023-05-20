@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSortTests\\HeapSortTests.csproj": {}
+    "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSortTests\\HeapSortTests.csproj": {}
   },
   "projects": {
-    "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\BinaryHeap\\BinaryHeap.csproj": {
+    "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\BinaryHeap\\BinaryHeap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\BinaryHeap\\BinaryHeap.csproj",
+        "projectUniqueName": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\BinaryHeap\\BinaryHeap.csproj",
         "projectName": "BinaryHeap",
-        "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\BinaryHeap\\BinaryHeap.csproj",
+        "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\BinaryHeap\\BinaryHeap.csproj",
         "packagesPath": "C:\\Users\\Ильназ\\.nuget\\packages\\",
-        "outputPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\BinaryHeap\\obj\\",
+        "outputPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\BinaryHeap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSortTests\\HeapSortTests.csproj": {
+    "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSortTests\\HeapSortTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSortTests\\HeapSortTests.csproj",
+        "projectUniqueName": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSortTests\\HeapSortTests.csproj",
         "projectName": "HeapSortTests",
-        "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSortTests\\HeapSortTests.csproj",
+        "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSortTests\\HeapSortTests.csproj",
         "packagesPath": "C:\\Users\\Ильназ\\.nuget\\packages\\",
-        "outputPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSortTests\\obj\\",
+        "outputPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSortTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSort\\HeapSort.csproj": {
-                "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSort\\HeapSort.csproj"
+              "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSort\\HeapSort.csproj": {
+                "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSort\\HeapSort.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSort\\HeapSort.csproj": {
+    "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSort\\HeapSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSort\\HeapSort.csproj",
+        "projectUniqueName": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSort\\HeapSort.csproj",
         "projectName": "HeapSort",
-        "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSort\\HeapSort.csproj",
+        "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSort\\HeapSort.csproj",
         "packagesPath": "C:\\Users\\Ильназ\\.nuget\\packages\\",
-        "outputPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSort\\obj\\",
+        "outputPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSort\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -182,8 +182,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\BinaryHeap\\BinaryHeap.csproj": {
-                "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\BinaryHeap\\BinaryHeap.csproj"
+              "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\BinaryHeap\\BinaryHeap.csproj": {
+                "projectPath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\BinaryHeap\\BinaryHeap.csproj"
               }
             }
           }

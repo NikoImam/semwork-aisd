@@ -46,7 +46,7 @@ namespace BinaryHeap
         {
             if (_size == 0)
             {
-                throw new IndexOutOfRangeException();
+                throw new Exception("Heap is empty");
             }
 
             return _elements[0];

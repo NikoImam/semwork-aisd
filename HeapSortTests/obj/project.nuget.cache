@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ItJr1n6sktOx71m9n1UqZf04vFrFcih5PHzoH0XtBB3DY+ZHSdS1UGyF1a9EnF7ynMU0lsO+iQsmTOaQbf4b2g==",
+  "dgSpecHash": "L8qx7t7A5ZJbaGsawbcwGIRrkqj7xgUwPJcCg+PbWPSBIsdlZOa1RnwtfSysRVNqaVZln69dpahKk27bqzOddA==",
   "success": true,
-  "projectFilePath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\Aisd.Semwork\\HeapSortTests\\HeapSortTests.csproj",
+  "projectFilePath": "X:\\Niko\\ДЗ\\АиСД\\Семестровка\\AisdSemwork\\semwork-aisd\\HeapSortTests\\HeapSortTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ильназ\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Ильназ\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
