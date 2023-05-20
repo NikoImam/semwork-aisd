@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HeapSort/1.0.0": {
+        "dependencies": {
+          "BinaryHeap": "1.0.0"
+        },
+        "runtime": {
+          "HeapSort.dll": {}
+        }
+      },
+      "BinaryHeap/1.0.0": {
+        "runtime": {
+          "BinaryHeap.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HeapSort/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BinaryHeap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

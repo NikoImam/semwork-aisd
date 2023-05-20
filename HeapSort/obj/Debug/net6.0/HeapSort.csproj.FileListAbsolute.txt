@@ -1,0 +1,15 @@
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\bin\Debug\net6.0\HeapSort.deps.json
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\bin\Debug\net6.0\HeapSort.dll
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\bin\Debug\net6.0\HeapSort.pdb
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\bin\Debug\net6.0\BinaryHeap.dll
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\bin\Debug\net6.0\BinaryHeap.pdb
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\HeapSort.csproj.AssemblyReference.cache
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\HeapSort.GeneratedMSBuildEditorConfig.editorconfig
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\HeapSort.AssemblyInfoInputs.cache
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\HeapSort.AssemblyInfo.cs
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\HeapSort.csproj.CoreCompileInputs.cache
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\HeapSort.csproj.CopyComplete
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\HeapSort.dll
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\refint\HeapSort.dll
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\HeapSort.pdb
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\HeapSort\obj\Debug\net6.0\ref\HeapSort.dll

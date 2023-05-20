@@ -1,0 +1,12 @@
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\bin\Release\net6.0\BinaryHeap.deps.json
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\bin\Release\net6.0\BinaryHeap.dll
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\bin\Release\net6.0\BinaryHeap.pdb
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\BinaryHeap.csproj.AssemblyReference.cache
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\BinaryHeap.GeneratedMSBuildEditorConfig.editorconfig
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\BinaryHeap.AssemblyInfoInputs.cache
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\BinaryHeap.AssemblyInfo.cs
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\BinaryHeap.csproj.CoreCompileInputs.cache
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\BinaryHeap.dll
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\refint\BinaryHeap.dll
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\BinaryHeap.pdb
+X:\Niko\ДЗ\АиСД\Семестровка\AisdSemwork\Aisd.Semwork\BinaryHeap\obj\Release\net6.0\ref\BinaryHeap.dll
