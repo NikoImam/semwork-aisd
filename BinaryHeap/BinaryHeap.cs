@@ -4,112 +4,107 @@ namespace BinaryHeap
 {
     public class MinHeap
     {
-        private readonly int[] _elements;
-        private int _size;
+        private int[]? _heap;
+        private int _size = 0;
 
         public MinHeap(int size)
         {
-            _elements = new int[size];
+            _heap = new int[size];
         }
 
-        public MinHeap(int[] array)
+        public MinHeap(int[] elements)
         {
-            _elements = new int[array.Length];
-            for (int i = 0; i < array.Length; i++)
+            BuildHeap(elements);
+        }
+
+        private int GetLeftChildIndex(int index) => 2 * index + 1;
+        private int GetRightChildIndex(int index) => 2 * index + 2;
+        private int GetParentIndex(int index) => (index - 1) / 2;
+        private bool IsRoot(int index) => index == 0;
+
+        public void BuildHeap(int[] elements)
+        {
+            _size = elements.Length;
+            _heap = elements;
+
+            for (int i = (_size - 1) / 2; i >= 0; i--)
+                HeapifyDown(i);
+        }
+        public void Add(int n)
+        {
+            if (_size == _heap!.Length)
+                throw new IndexOutOfRangeException("No free space in heap.");
+
+            _heap[_size] = n;
+            _size++;
+            HeapifyUp(_size - 1);
+        }
+        public void Replace(int index, int value)
+        {
+            if (value < _heap![index])
             {
-                Add(array[i]);
+                _heap[index] = value;
+                HeapifyUp(index);
+            }
+            else
+            {
+                _heap[index] = value;
+                HeapifyDown(index);
             }
         }
-
-        private int GetLeftChildIndex(int elementIndex) => 2 * elementIndex + 1;
-        private int GetRightChildIndex(int elementIndex) => 2 * elementIndex + 2;
-        private int GetParentIndex(int elementIndex) => (elementIndex - 1) / 2;
-
-        private bool HasLeftChild(int elementIndex) => GetLeftChildIndex(elementIndex) < _size;
-        private bool HasRightChild(int elementIndex) => GetRightChildIndex(elementIndex) < _size;
-        private bool IsRoot(int elementIndex) => elementIndex == 0;
-
-        private int GetLeftChild(int elementIndex) => _elements[GetLeftChildIndex(elementIndex)];
-        private int GetRightChild(int elementIndex) => _elements[GetRightChildIndex(elementIndex)];
-        private int GetParent(int elementIndex) => _elements[GetParentIndex(elementIndex)];
-
-        private void Swap(int firstIndex, int secondIndex)
-        {
-            var temp = _elements[firstIndex];
-            _elements[firstIndex] = _elements[secondIndex];
-            _elements[secondIndex] = temp;
-        }
-
-        public bool IsEmpty => _size == 0;
-
-        public int GetRoot()
+        public int PeekMin()
         {
             if (_size == 0)
             {
-                throw new Exception("Heap is empty");
+                throw new IndexOutOfRangeException("Heap is empty");
             }
 
-            return _elements[0];
+            return _heap![0];
         }
-
         public int ExtractMin()
         {
-            if (_size == 0)
+            if (_size > 0)
             {
-                throw new IndexOutOfRangeException();
+                var result = _heap![0];
+                _heap[0] = _heap[_size - 1];
+                _size--;
+                HeapifyDown(0);
+                return result;
             }
-
-            var result = _elements[0];
-            _elements[0] = _elements[_size - 1];
-            _size--;
-
-            HeapifyDown();
-
-            return result;
+            throw new IndexOutOfRangeException("Heap is empty");
         }
-
-        public void Add(int element)
+        private void HeapifyDown(int index)
         {
-            if (_size == _elements.Length)
+            var leftChild = GetLeftChildIndex(index);
+            var rightChild = GetRightChildIndex(index);
+            var min = index;
+            if (leftChild < _size && _heap![leftChild] < _heap[min])
+                min = leftChild;
+
+            if (rightChild < _size && _heap![rightChild] < _heap[min])
+                min = rightChild;
+
+            if (min != index)
             {
-                throw new IndexOutOfRangeException();
-            }
-
-            _elements[_size] = element;
-            _size++;
-
-            HeapifyUp();
-        }
-
-        private void HeapifyDown()
-        {
-            int index = 0;
-            while (HasLeftChild(index))
-            {
-                var smallerIndex = GetLeftChildIndex(index);
-                if (HasRightChild(index) && GetRightChild(index) < GetLeftChild(index))
-                {
-                    smallerIndex = GetRightChildIndex(index);
-                }
-
-                if (_elements[smallerIndex] >= _elements[index])
-                {
-                    break;
-                }
-
-                Swap(smallerIndex, index);
-                index = smallerIndex;
+                Swap(min, index);
+                HeapifyDown(min);
             }
         }
-        private void HeapifyUp()
+        private void HeapifyUp(int index)
         {
-            var index = _size - 1;
-            while (!IsRoot(index) && _elements[index] < GetParent(index))
+            while (!IsRoot(index) && _heap![index] < _heap[GetParentIndex(index)])
             {
                 var parentIndex = GetParentIndex(index);
                 Swap(parentIndex, index);
                 index = parentIndex;
             }
         }
+        private void Swap(int firstIndex, int secondIndex)
+        {
+            var temp = _heap![firstIndex];
+            _heap[firstIndex] = _heap[secondIndex];
+            _heap[secondIndex] = temp;
+        }
     }
+
 }
